@@ -38,6 +38,8 @@ Salida:
 * [x] Tests automatizados con `pytest`.
 * [x] Linting con `ruff`.
 * [x] Imagen publicada en GHCR.
+es posible ver la image con docker pull ghcr.io/yeimyhs/spam-api:latest
+docker run --rm -p 8000:8000 ghcr.io/yeimyhs/spam-api:latest
 * [ ] CI con GitHub Actions.
 * [ ] Otras prácticas avanzadas (metrics, MLflow, Kubernetes).
 
